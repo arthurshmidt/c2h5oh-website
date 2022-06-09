@@ -8,6 +8,7 @@
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
+
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
@@ -26,11 +27,6 @@ body {
   max-width: 46em;
 }
 
-img {
-  height: 50px;
-  width: 50px;
-}
-
 
  /*
  * Nav bar
@@ -38,6 +34,7 @@ img {
  .nav-masthead .nav-link {
    color: rgba(255, 255, 255, .5);
    border-bottom: .25rem solid transparent;
+   margin-bottom: 50px;
   }
   
   .nav-masthead .nav-link:hover,
@@ -49,12 +46,12 @@ img {
     margin-left: 2rem;
   }
   
-  .active {
+  .nav-masthead .active {
     color: #fff;
     border-bottom-color: #fff;
   }
   
-  .nav-scroller {
+  /* .nav-scroller {
     position: relative;
     z-index: 2;
     height: 2.75rem;
@@ -71,50 +68,47 @@ img {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   } 
-  
-
-.bi-twitter {
+   */
+/*
+* Main start
+*/
+img {
   height: 50px;
   width: 50px;
 }
 
-  /* #welcome {
-    margin-top: 50px;
-  } */
+#sslogo {
+  height:150px;
+  width:150px;
+}
 
-  @media (min-width: 768px) {
+
+#Home {
+  margin-bottom: 50px;
+}
+  #welcome {
+    margin-top: 50px;
+  }
+
+#c2title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#tagline {
+  font-size: 1em;
+}
+
+
+@media (max-width: 750px){
+  #Home {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+  /* @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
-  }
+  } */
 
-
-
-  /*
-  .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-  
-  .b-example-divider {
-    height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-  }
-  
-  .b-example-vr {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 100vh;
-  }
-  
-  .bi {
-    vertical-align: -.125em;
-    fill: currentColor;
-  }
-  */
