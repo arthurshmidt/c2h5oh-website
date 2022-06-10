@@ -20,7 +20,7 @@ body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
   position:relative;
-  /* overflow-y:visible; */
+  overflow-y:visible;
 }
 
 .cover-container {
@@ -34,15 +34,13 @@ body {
  .nav-masthead .nav-link {
    color: rgba(255, 255, 255, .5);
    border-bottom: .25rem solid transparent;
-   margin-bottom: 50px;
+   /* margin-bottom: 50px; */
   }
-  
-  .nav-masthead .nav-link:hover,
-  .nav-masthead .nav-link:focus {
+.nav-link:hover, .nav-link:focus {
     border-bottom-color: rgba(255, 255, 255, .25);
   }
   
-  .nav-masthead .nav-link + .nav-link {
+.nav-link  {
     margin-left: 2rem;
   }
   
@@ -50,9 +48,7 @@ body {
     color: #fff;
     border-bottom-color: #fff;
   }
-/* #c2h5ohlogo{
- max-height: ;
-}   */
+
 /*
 * Main start
 */
@@ -67,12 +63,12 @@ img {
 }
 
 
-#Home {
+/* #Home {
   margin-bottom: 50px;
-}
-  #welcome {
+} */
+  /* #welcome {
     margin-top: 50px;
-  }
+  } */
 
 #c2title {
   font-size: 2em;
@@ -87,9 +83,9 @@ img {
 @media (max-width: 500px){
   #navBar {
     flex-flow: wrap;
-    /* flex-grow:unset; */
+    flex-grow:inherit;
     /* margin: 10px; */
-    max-height: 10vh;
+    /* max-height: 10vh; */
 
 
   }
@@ -100,39 +96,19 @@ img {
     padding-top: 0;
     padding-bottom: 0;
   }
-  #Home{
+  /* #Home{
     margin-top: 3vh;
-  }
+  } */
 }
 @media (max-width:300px){
  #navBar {
-    margin:5px;
+    margin: 0 5px 5px 5px;
  } 
  .nav-masthead .nav-link + .nav-link {
   margin-bottom:auto;
 }
+.nav-link{
+  max-width: 30%;
+  margin-bottom: 1px;
 }
-  /* @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-  } */
-
-  /* .nav-scroller {
-    position: relative;
-    z-index: 2;
-    height: 2.75rem;
-    overflow-y: hidden;
-  }
-  
-  .nav-scroller .nav {
-    display: flex;
-    flex-wrap: nowrap;
-    padding-bottom: 1rem;
-    margin-top: -1px;
-    overflow-x: auto;
-    text-align: center;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-  }  */
-   
+}

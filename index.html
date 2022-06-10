@@ -34,14 +34,22 @@
 
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto pb-3">
-      <nav id="navBar" class="navbar navbar-expand nav fixed-top nav-masthead justify-content-center" >
+      <nav id="navBar" class="fixed-top 
+      justify-content-center
+      navbar-expand 
+      navbar 
+      nav-masthead
+      flex-row bg-dark
+      ">
         <div><img id="c2h5ohlogo" src="images/c2h5oh - Logo - White - ClearBG.png" alt="c2h5ohLogo/" class="nav-link"></div>
+        <div id="navLinks" class="navbar navbar-expand  justify-content-center flex-row">
         <a class="nav-link fw-bold px-0 active" href="#Home">Home</a>
         <a class="nav-link fw-bold px-0 " href="#Intro">Intro</a>
         <a class="nav-link fw-bold px-0" href="#About">About</a>
         <a class="nav-link fw-bold px-0" href="#How">How</a>
         <a class="nav-link fw-bold  px-0" href="#Contact">Contact</a>
         <a class="nav-link fw-bold px-0" href="#Team">Team</a>
+      </div>
       </nav>
       
     </header>
@@ -50,10 +58,10 @@
       
       <div id="Home" class="text-center ">
       <hr />
-    <h1 id="c2title" class="lead">C2H5OH.</h1>  <img src="images/Stamps_v1_3x3.jpeg" alt="sslogo" id="sslogo"/>
+    <h1 id="c2title" class="lead">C2H5OH.</h1>  
       <div id="tagline">For those of you wondering, C2H5OH is the chemical formula for alcohol. <br />But this alcohol is special... <br />This alcohol has joined the 21st century.</div>
 
-
+      <br />
       <a href="#Intro" class="btn btn-sm btn-secondary fw-bold border-white bg-white text-dark">Learn More: </a>
       
     </p>
@@ -153,3 +161,18 @@ Master Distiller, Technical Editor, Photographer, Dog Whisperer
 
   </body>
 </html>
+
+
+
+<!-- this works
+<nav id="navBar" class="navbar navbar-expand nav fixed-top nav-masthead justify-content-center flex-row" >
+  <div><img id="c2h5ohlogo" src="images/c2h5oh - Logo - White - ClearBG.png" alt="c2h5ohLogo/" class="nav-link"></div>
+
+  <a class="nav-link fw-bold px-0 active" href="#Home">Home</a>
+  <a class="nav-link fw-bold px-0 " href="#Intro">Intro</a>
+  <a class="nav-link fw-bold px-0" href="#About">About</a>
+  <a class="nav-link fw-bold px-0" href="#How">How</a>
+  <a class="nav-link fw-bold  px-0" href="#Contact">Contact</a>
+  <a class="nav-link fw-bold px-0" href="#Team">Team</a>
+
+</nav> -->
