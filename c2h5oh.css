@@ -1,0 +1,23 @@
+.nav-bottom-border {
+  border-bottom: solid;
+  border-bottom-color: grey;
+  border-bottom-width: thin;
+}
+
+.team {
+  max-width: 5%;
+}
+
+.shmidt-logo {
+  max-width: 30%;
+}
+
+.c2h5oh-logo {
+  max-width: 80%;
+}
+
+.footer-top-border {
+  border-top: solid;
+  border-top-color: grey;
+  border-top-width: thin;
+}
